@@ -73,3 +73,24 @@ footer {
 body {
   background-color: wheat;
 }
+
+nav {
+  margin-top: -8px;
+  width: 100vw;
+  margin-left: -8px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 23px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav A:link,
+nav A:visited,
+nav A:hover,
+nav A:active {
+  text-decoration: none;
+  color: #ffffff;
+}
