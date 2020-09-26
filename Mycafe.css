@@ -1,0 +1,75 @@
+.red-text {
+  color: red;
+}
+
+.white-text {
+  color: white;
+}
+
+.gradient {
+  background: rgb(0, 36, 4);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 36, 4, 1) 0%,
+    rgba(186, 1, 1, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 36, 4, 1) 0%,
+    rgba(186, 1, 1, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 36, 4, 1) 0%,
+    rgba(186, 1, 1, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002404",endColorstr="#ba0101",GradientType=1);
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  background-color: navajowhite;
+}
+
+h2 {
+  color: red;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color: red;
+  font-style: italic;
+  text-align: left;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+ul {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+footer {
+  font-size: 0.5em;
+}
+
+body {
+  background-color: wheat;
+}
